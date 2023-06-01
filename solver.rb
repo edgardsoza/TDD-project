@@ -1,5 +1,6 @@
 # frozen_string_literal: true
 
+# Solver class
 class Solver
   def factorial(number)
     raise ArgumentError, "Negative number #{number} detected, only 0 or positive numbers supported" if number.negative?
@@ -11,8 +12,8 @@ class Solver
       number * factorial(number - 1)
     end
   end
-    def reverse(word)
-        word.reverse
-    end 
-end
 
+  def reverse(word)
+    word.reverse
+  end
+end
