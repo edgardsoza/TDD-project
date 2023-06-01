@@ -35,7 +35,7 @@ describe Solver do
       expect(fizzbuzz(14)).to eq '14'
     end
   end
-  context "When testing the Solver class" do
+  context "When testing the reverse method" do
     it "should say 'foobar' backwards" do
       message = solver.reverse("foobar")
       expect(message).to eq "raboof"
