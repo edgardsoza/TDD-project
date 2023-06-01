@@ -1,8 +1,8 @@
 <a name="readme-top"></a>
 
-# OOP School Library
+# TDD project
 
-Program based on Ruby to implement classes and objects.
+Program based on Ruby to implement TDD techniques.
 
 <!-- TABLE OF CONTENTS -->
 
@@ -25,9 +25,9 @@ Program based on Ruby to implement classes and objects.
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 OOP School Library <a name="about-project"></a>
+# 📖 TDD project <a name="about-project"></a>
 
-**OOP School Library** is a school library app. In which the app will allow us to add new students or teachers, add new books, save records of who borrowed a given book and when.
+**TDD project** is a project in which we will implement a class with some methods, but we will do it by doing test-driven development (TDD). The idea is to write tests first and then the code.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -62,9 +62,9 @@ Program based on Ruby to implement classes and objects.
 
 ### Key Features <a name="key-features"></a>
 
-- Add person
-- Add student
-- Add teacher
+- Solve factorial
+- Reverse String
+- Fizzbuzz
 
 
 <p align="right"><a href="#readme-top">👆</a></p>
@@ -88,13 +88,13 @@ In order to run this project you need to:
 Clone the repo into your local machine:
 
 ```bash
-git clone git@github.com:edgardsoza/enumerable/tree/OOP-school-library.git
+git clone git@github.com:edgardsoza/TDD-project/tree/tdd-practice.git
 ```
 
 ### Usage
 
 To run the program, you should use irb in the wsl if you use Windows:
-irb> my_list.rb
+irb> load 'solver.rb'
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
@@ -126,7 +126,6 @@ irb> my_list.rb
 ## 🔭 Future Features <a name="future-features"></a>
 
 - Add basic UI
-- Add unit tests
 - Preserve data
 
 <p align="right"><a href="#readme-top">👆</a></p>
@@ -139,7 +138,7 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the issues page.
 
-https://github.com/edgardsoza/OOP-School-library/issues
+https://github.com/edgardsoza/TDD-project/issues
 
 <p align="right"><a href="#readme-top">👆</a></p>
 
