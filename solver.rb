@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 # frozen_string_literal: true
 
 class Solver
+    def reverse(word)
+        word.reverse
+    end 
 end
-=======
 
->>>>>>> 9dec6c2 (Add test function for reverse method)
